@@ -1,0 +1,24 @@
+.container {
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  border: 1px solid black;
+  width: 25%;
+}
+
+.main {
+  border: 1px solid black;
+  width: 75%;
+  overflow-y: scroll;
+}
+
+body,
+html {
+  height: 100%;
+  overflow-y: hidden;
+}
